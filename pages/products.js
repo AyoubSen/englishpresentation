@@ -3,6 +3,7 @@ import { SiAffinityphoto } from "react-icons/si";
 import { MdSecurity } from "react-icons/md";
 import { GiEyeShield } from "react-icons/gi";
 import { CgTranscript } from "react-icons/cg";
+import { GiHospitalCross } from "react-icons/gi";
 function services() {
   return (
     <Grid
@@ -40,7 +41,7 @@ function services() {
         alignItems='center'
       >
         <Box>
-          <Icon w={20} h={20} as={GiEyeShield} />
+          <Icon w={20} h={20} as={GiHospitalCross} />
         </Box>
         <Center
           fontWeight='bold'
@@ -50,12 +51,13 @@ function services() {
           border='2px solid #00848C'
         >
           <p>
-            Ever been a victim to an online fraud? Want to put an end to that?
-            Then we might have exactly what you need! We offer you: sharpEye!
+            This one's for hopsitals. Such a powerful design that'll help in
+            Anesthesia-monitoring during surgeries. We offer you: safeSleep
           </p>
         </Center>
         <Button colorScheme='teal'>Purchase (Free trial!)</Button>
       </Flex>
+
       <Flex
         justifyContent='space-around'
         flexDirection='column'
@@ -83,3 +85,28 @@ function services() {
 }
 
 export default services;
+
+/*
+<Flex
+        justifyContent='space-around'
+        flexDirection='column'
+        alignItems='center'
+      >
+        <Box>
+          <Icon w={20} h={20} as={GiEyeShield} />
+        </Box>
+        <Center
+          fontWeight='bold'
+          fontSize='20px'
+          padding='10px'
+          boxShadow='5px -5px teal'
+          border='2px solid #00848C'
+        >
+          <p>
+            Ever been a victim to an online fraud? Want to put an end to that?
+            Then we might have exactly what you need! We offer you: sharpEye!
+          </p>
+        </Center>
+        <Button colorScheme='teal'>Purchase (Free trial!)</Button>
+      </Flex>
+      */
