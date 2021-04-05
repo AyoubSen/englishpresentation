@@ -13,7 +13,7 @@ function about() {
           <p>Who are we ?</p>
         </Box>
         <Box fontWeight='bold'>
-          <p>Why have different </p>
+          <p></p>
         </Box>
       </Flex>
     </Box>
