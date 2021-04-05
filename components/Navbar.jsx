@@ -26,7 +26,7 @@ function Navbar() {
       </Box>
       <Box>
         <Button colorScheme='teal' w='150px'>
-          <Link href='/services'>
+          <Link href='/'>
             <a href=''>Contact us !</a>
           </Link>
         </Button>
